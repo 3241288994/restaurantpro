@@ -1,5 +1,6 @@
 # restaurantpro
-环境配置
+
+# 环境配置
 1. 安装 JDK
 确保已安装 JDK 20.0.1，可以从 Oracle官网 下载。安装后配置环境变量：
 
@@ -21,7 +22,8 @@
 
 下载 MySQL Connector/J (JDBC 驱动) 从 MySQL官网，下载 .zip 文件并解压。
 在 Eclipse 中，右键点击项目 -> Properties -> Java Build Path -> Libraries -> Add External JARs，选择解压后的 mysql-connector-java-xx.x.xx.jar 文件。
-使用说明
+
+# 使用说明
 1. 运行项目
 在 Eclipse 中，找到主类（例如：customer_completeMeal，customer_login，customer_order 等），右键点击主类文件，选择 Run As -> Java Application。
 
